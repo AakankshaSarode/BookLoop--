@@ -22,12 +22,12 @@ const Card = () => {
   };
 
   return (
-    <div className="max-w-[1500px] m-auto px-4 py-12 ">
+    <div className="max-w-[1500px] m-auto px-4 py-12 bg-blue-100 ">
       <h1 className="text-gray-800 font-bold text-4xl text-center underline">
         Department{" "}
       </h1>
       {/*Filter row*/}
-      <div className="flex flex-col lg:flex-row justify-between">
+      <div className="flex flex-col lg:flex-row justify-between ">
         {/*filter types*/}
         <div>
           <p className="font-bold text-gray-700 uppercase  text-2xl">Filter Type</p>
@@ -56,11 +56,12 @@ const Card = () => {
         </div>*/}
       </div>
       {/*Display card*/}
-      <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 pt-4 ">
+      <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 pt-4
+       ">
         {dept.map((item, index) => (
           <div
             key={index}
-            className="border showdow-lg  rounded-lg hover:scale-105 duration-300"
+            className="border showdow-lg  rounded-lg hover:scale-105 duration-300 bg-yellow-200"
           >
             <img
               src={item.image}
