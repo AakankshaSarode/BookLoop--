@@ -2,7 +2,7 @@
 
  const Exchange = () => {
    return (
-     <div  className="max-w-[1500px] m-auto px-4 py-12 ">
+     <div  className="max-w-[1500px] m-auto px-4 py-12 mt-10 bg-green-100">
          <h1 className="text-black font-bold text-4xl text-center underline mb-10">
         Exchange Your Books {" "}
       </h1>
