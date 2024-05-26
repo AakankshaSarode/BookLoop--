@@ -15,7 +15,7 @@
         <div className='rounded-xl relative '>
         {/*overlay*/}
 
-         <div className='absolute w-[480px] h-[550px] bg-slate-400 rounded-xl ml-[120px] text-black place-items-center mt-14'>
+         <div className='absolute lg:w-[480px] h-[600px] bg-slate-400 rounded-xl lg:ml-[120px] text-black place-items-center mt-14'>
  <p className='font-bold text-2xl px-2 pt-4  text-center'>Give books</p>
  <p className='px-2 ml-2 justify-center'>Add the books you are giving in exchange here</p>
  <div  className='
@@ -42,12 +42,18 @@ className="rounded-md border-none bg-gray-200 p-2 text-center"
  placeholder="Enter your contact Number"/>
  
   <input type="text" 
-   className="rounded-md border-none bg-gray-200 p-2 text-center"
+   className="rounded-md border-none bg-gray-200 p-2 text-center mb-2 lg:mb-0 lg:mr-2"
  placeholder="Enter the  name book1 "/>
  
    <input type="text" 
-    className="rounded-md border-none bg-gray-200 p-2 text-center"
+    className="rounded-md border-none bg-gray-200 p-2 text-center mb-2 lg:mb-0 lg:mr-2"
  placeholder="Enter the  name book2 "/>
+   <select className="rounded-md border-none bg-gray-200 p-2">
+                  <option value="">Select Condition</option>
+                  <option value="barely-used">Barely Used</option>
+                  <option value="heavily-used">Heavily Used</option>
+                  <option value="new">New</option>
+                </select>
  <button className='border-white bg-white text-black mx-auto mt-auto uppercase m-1   hover:bg-blue-600 hover:text-white'> Submit</button>
 
  </div>
@@ -59,7 +65,7 @@ className="rounded-md border-none bg-gray-200 p-2 text-center"
 <div className='rounded-xl relative  '>
         {/*overlay*/}
 
-         <div className='absolute w-[480px] h-[550px] bg-slate-400 rounded-xl mt-14 text-black  '>
+         <div className='absolute lg:w-[480px] h-[600px] bg-slate-400 rounded-xl mt-14 text-black  '>
  <p className='font-bold text-2xl px-2 pt-4  text-center'>Take books</p>
  <p className='px-2 ml-2 justify-center'>Add the books you are taking in exchange here</p>
  <div  className='
@@ -98,31 +104,6 @@ className="rounded-md border-none bg-gray-200 p-2 text-center"
 
  </div>
  </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
   </div>
         </div>
